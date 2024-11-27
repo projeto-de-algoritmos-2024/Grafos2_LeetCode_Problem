@@ -17,4 +17,23 @@ Este repositório contém a resolução de três problemas do LeetCode, que abor
         Descrição: Este problema exige que você identifique as arestas críticas e pseudo-críticas em uma árvore geradora mínima. Uma aresta crítica é aquela que, se removida, aumenta o custo da árvore geradora mínima. A solução foi implementada utilizando o algoritmo de Kruskal para Árvore Geradora Mínima, com a modificação de testar se a remoção ou inclusão forçada de uma aresta altera o custo total da árvore.
 
 ## Como executar
-Para cada um desses problemas, o código foi implementado em Python e está disponível neste repositório. Você pode executar os scripts diretamente ou adaptá-los conforme necessário para o seu ambiente de desenvolvimento. Cada problema está isolado em um arquivo de script separado, facilitando o teste individual.
+Para cada um desses problemas, o código foi implementado em Python e está disponível neste repositório (pasta src). Você pode executar os scripts diretamente ou adaptá-los conforme necessário para o seu ambiente de desenvolvimento. Cada problema está isolado em um arquivo de script separado, facilitando o teste individual.
+
+## Contribuidores
+<center>
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/Hellen159">
+                <img style="border-radius: 50%;" src="https://github.com/Hellen159.png" width="150px;"/>
+                <h5 class="text-center"> <br> Hellen Faria Matrícula: 202016480 </h5>
+            </a>
+        </td>
+      <td align="center">
+            <a href="https://github.com/deboracaires">
+                <img style="border-radius: 50%;" src="https://github.com/deboracaires.png" width="150px;"/>
+                <h5 class="text-center"> <br> Debora Caires Matrícula: 222015103</h5>
+            </a>
+        </td>
+    </tr>
+</table>
