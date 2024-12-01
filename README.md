@@ -1,7 +1,7 @@
 # Resolução de Problemas no LeetCode
 
 ## Visão Geral
-Este repositório contém a resolução de três problemas do LeetCode, que abordam tópicos fundamentais discutidos em sala de aula, como o algoritmo de Árvore Geradora Mínima (MST) e o algoritmo de Dijkstra. Os problemas foram resolvidos utilizando essas técnicas e outros conceitos de algoritmos clássicos de grafos. Abaixo, você encontrará uma breve descrição de cada problema e o nível de dificuldade.
+Este repositório contém a resolução de cinco problemas do LeetCode, que abordam tópicos fundamentais discutidos em sala de aula, como o algoritmo de Árvore Geradora Mínima (MST) e o algoritmo de Dijkstra. Os problemas foram resolvidos utilizando essas técnicas e outros conceitos de algoritmos clássicos de grafos. Abaixo, você encontrará uma breve descrição de cada problema e o nível de dificuldade.
 
 ## Questões
 1. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/) - Nível: Médio
@@ -15,6 +15,14 @@ Este repositório contém a resolução de três problemas do LeetCode, que abor
 3. [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/) - Nível: Difícil
 
         Descrição: Este problema exige que você identifique as arestas críticas e pseudo-críticas em uma árvore geradora mínima. Uma aresta crítica é aquela que, se removida, aumenta o custo da árvore geradora mínima. A solução foi implementada utilizando o algoritmo de Kruskal para Árvore Geradora Mínima, com a modificação de testar se a remoção ou inclusão forçada de uma aresta altera o custo total da árvore.
+
+4. [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/) - Nível: Difícil
+
+        Descrição: Este problema exige que você encontre o menor caminho em um grafo conectado que visita todos os nós pelo menos uma vez. Cada nó deve ser visitado exatamente uma vez antes de retornar ao ponto de partida ou parar.
+   
+5. [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/description/) - Nível: Difícil
+
+        Descrição: ste problema exige que você encontre o menor número de movimentos necessários para coletar todas as chaves em uma grade, onde células podem conter paredes, portas ou chaves. Uma porta só pode ser aberta se a chave correspondente for coletada previamente.
 
 ## Como executar
 Para cada um desses problemas, o código foi implementado em Python e está disponível neste repositório (pasta src). Você pode executar os scripts diretamente ou adaptá-los conforme necessário para o seu ambiente de desenvolvimento. Cada problema está isolado em um arquivo de script separado, facilitando o teste individual.
